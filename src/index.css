@@ -1,0 +1,31 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+.react-tel-input .flag-dropdown {
+    background-color: transparent;
+    border: none;
+    border-right: 1px solid black;
+}
+
+
+
+
+
+.react-datepicker-wrapper{
+    display: block;
+}
+
+label{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+
+input:focus{
+    border-color: rgb(15, 15, 15);
+}
